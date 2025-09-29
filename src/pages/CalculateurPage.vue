@@ -30,8 +30,8 @@
 </template>
 
 <script setup>
-import LP_Header from '../components/Landing/LP_Header.vue'
-import LP_Testimonials from '../components/Landing/LP_Testimonials.vue'
-import LP_Footer from '../components/Landing/LP_Footer.vue'
+import LP_Header from '../components/landing/LP_Header.vue'
+import LP_Testimonials from '../components/landing/LP_Testimonials.vue'
+import LP_Footer from '../components/landing/LP_Footer.vue'
 import CompteurCalories from '../components/compteur/CompteurCalories.vue'
 </script>

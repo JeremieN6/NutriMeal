@@ -5,5 +5,5 @@
   </template>
 
 <script setup>
-    import PolitiqueConfidentialite from '../components/Landing/PolitiqueConfidentialite.vue'
+  import PolitiqueConfidentialite from '../components/landing/PolitiqueConfidentialite.vue'
 </script>

@@ -12,13 +12,13 @@
 
 <script setup>
     import { RouterLink } from 'vue-router'
-    import LP_Header from '../components/Landing/LP_Header.vue'
-    import LP_Hero from '../components/Landing/LP_Hero.vue'
-    import LP_Features from '../components/Landing/LP_Features.vue'
-    import LP_Testimonials from '../components/Landing/LP_Testimonials.vue'
+  import LP_Header from '../components/landing/LP_Header.vue'
+  import LP_Hero from '../components/landing/LP_Hero.vue'
+  import LP_Features from '../components/landing/LP_Features.vue'
+  import LP_Testimonials from '../components/landing/LP_Testimonials.vue'
     // import LP_Pricing from '../components/Landing/LP_Pricing.vue'
-    import LP_FAQ from '../components/Landing/LP_FAQ.vue'
-    import LP_Footer from '../components/Landing/LP_Footer.vue'
+  import LP_FAQ from '../components/landing/LP_FAQ.vue'
+  import LP_Footer from '../components/landing/LP_Footer.vue'
 
     import { onMounted } from 'vue'
 
