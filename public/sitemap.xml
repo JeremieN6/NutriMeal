@@ -3,70 +3,105 @@
 
   <url>
     <loc>https://jeremiecode.fr/projet/labo/NutriMeal/</loc>
-    <lastmod>2025-09-10</lastmod>
+    <lastmod>2025-09-29</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
 
   <url>
-    <loc>https://jeremiecode.fr/projet/labo/NutriMeal/calculateur</loc>
-    <lastmod>2025-09-10</lastmod>
+    <loc>https://jeremiecode.fr/projet/labo/NutriMeal/compteur</loc>
+    <lastmod>2025-09-29</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://jeremiecode.fr/projet/labo/NutriMeal/recettes-frigo</loc>
+    <lastmod>2025-09-29</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
 
   <url>
     <loc>https://jeremiecode.fr/projet/labo/NutriMeal/fonctionnalites</loc>
-    <lastmod>2025-09-10</lastmod>
+    <lastmod>2025-09-29</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
 
   <url>
     <loc>https://jeremiecode.fr/projet/labo/NutriMeal/blog</loc>
-    <lastmod>2025-09-10</lastmod>
+    <lastmod>2025-09-29</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
 
   <url>
     <loc>https://jeremiecode.fr/projet/labo/NutriMeal/politique-de-confidentialite</loc>
-    <lastmod>2025-09-10</lastmod>
+    <lastmod>2025-09-29</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
 
   <url>
-    <loc>https://jeremiecode.fr/projet/labo/NutriMeal/blog/conseils-pratiques-dosage-biberon</loc>
-    <lastmod>2025-08-31</lastmod>
+    <loc>https://jeremiecode.fr/projet/labo/NutriMeal/blog/comprendre-calories-aliments</loc>
+    <lastmod>2025-09-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
 
   <url>
-    <loc>https://jeremiecode.fr/projet/labo/NutriMeal/blog/comprendre-dosage-biberon</loc>
-    <lastmod>2025-08-31</lastmod>
+    <loc>https://jeremiecode.fr/projet/labo/NutriMeal/blog/eviter-erreurs-calcul-calories</loc>
+    <lastmod>2025-09-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
 
   <url>
-    <loc>https://jeremiecode.fr/projet/labo/NutriMeal/blog/prevention-dosage-biberon</loc>
-    <lastmod>2025-08-31</lastmod>
+    <loc>https://jeremiecode.fr/projet/labo/NutriMeal/blog/dangers-sous-estimation-calories</loc>
+    <lastmod>2025-09-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
 
   <url>
-    <loc>https://jeremiecode.fr/projet/labo/NutriMeal/blog/danger-surdosage-biberon</loc>
-    <lastmod>2025-08-31</lastmod>
+    <loc>https://jeremiecode.fr/projet/labo/NutriMeal/blog/comprendre-calories-aliments</loc>
+    <lastmod>2025-09-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
 
   <url>
-    <loc>https://jeremiecode.fr/projet/labo/NutriMeal/blog/erreurs-dosage-biberon</loc>
-    <lastmod>2025-08-31</lastmod>
+    <loc>https://jeremiecode.fr/projet/labo/NutriMeal/blog/eviter-erreurs-calcul-calories</loc>
+    <lastmod>2025-09-28</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://jeremiecode.fr/projet/labo/NutriMeal/blog/dangers-sous-estimation-calories</loc>
+    <lastmod>2025-09-28</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://jeremiecode.fr/projet/labo/NutriMeal/blog/impact-portions-calories</loc>
+    <lastmod>2025-09-28</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://jeremiecode.fr/projet/labo/NutriMeal/blog/role-macronutriments-calories</loc>
+    <lastmod>2025-09-28</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://jeremiecode.fr/projet/labo/NutriMeal/blog/calories-et-objectif</loc>
+    <lastmod>2025-09-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>

@@ -4,7 +4,7 @@
         <nav class="bg-white border-gray-200 px-4 lg:px-6 py-2.5 dark:bg-gray-800">
             <div class="flex flex-wrap justify-between items-center mx-auto max-w-screen-xl">
                 <RouterLink to="/" class="flex items-center">
-                    <!-- <span class="text-4xl">🥕🥦</span> -->
+                    <span class="text-4xl">🥕🥦</span>
                     <span class="self-center text-2xl italic font-semibold text-gray-700 whitespace-nowrap dark:text-white">NutriMeal</span>
                 </RouterLink>
                 <div class="flex items-center lg:order-2">
@@ -40,6 +40,13 @@
                             <RouterLink to="/compteur"
                                 class="block py-2 pr-4 pl-3 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-primary-700 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700">
                                 Compteur</RouterLink>
+                        </li>
+                        <li>
+                            <RouterLink to="/recettes-frigo"
+                                class="flex items-center gap-2 py-2 pr-4 pl-3 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-primary-700 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700">
+                                Recettes
+                                <sup class="text-gradient italic text-xs text-blue-600">New</sup>
+                            </RouterLink>
                         </li>
                         <li>
                             <RouterLink to="/fonctionnalites"
@@ -79,3 +86,13 @@ const showBypassLink = computed(() => {
     return import.meta.env.VITE_ENABLE_BYPASS === 'true'
 })
 </script>
+
+<!-- Styles personnalisés pour préserver le gradient -->
+<style>
+    .text-gradient {
+        background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+    }
+</style>

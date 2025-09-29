@@ -24,6 +24,14 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.5/flowbite.min.js"></script>
   <!-- PWA manifest -->
   <link rel="manifest" href="/manifest.webmanifest" />
+  <!-- Dev-only: ensure no service worker interferes with Vite HMR -->
+  <script>
+    if (location.hostname === 'localhost' || location.hostname === '127.0.0.1') {
+      if ('serviceWorker' in navigator) {
+        navigator.serviceWorker.getRegistrations().then(rs => rs.forEach(r => r.unregister())).catch(() => {});
+      }
+    }
+  </script>
   <script>
     // On page load or when changing themes, best to add inline in `head` to avoid FOUC
     if (localStorage.getItem('color-theme') === 'dark' || (!('color-theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
@@ -55,13 +63,6 @@
   </div>
   <div id="app">
   </div>
-  <script>
-    if ('serviceWorker' in navigator) {
-      window.addEventListener('load', () => {
-        navigator.serviceWorker.register('/sw.js').catch(() => {/* ignore */})
-      })
-    }
-  </script>
   <script type="module" src="/src/main.js"></script>
 </body>
 

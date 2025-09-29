@@ -14,6 +14,9 @@
                 <RouterLink to="/compteur" class="mr-4 hover:underline md:mr-6">Compteur</RouterLink>
             </li>
             <li>
+                <RouterLink to="/recettes-frigo" class="mr-4 hover:underline md:mr-6">Recettes</RouterLink>
+            </li>
+            <li>
                 <RouterLink to="/fonctionnalites" class="mr-4 hover:underline md:mr-6 ">Fonctionnalités</RouterLink>
             </li>
             <li>

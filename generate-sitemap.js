@@ -2,8 +2,6 @@
 import fs from 'fs'
 import path from 'path'
 import { fileURLToPath } from 'url'
-// import { posts } from './src/assets/data/articles.json'
-import posts from './src/assets/data/articles.json' assert { type: 'json' };
 
 // pour __dirname en ESM :
 const __filename = fileURLToPath(import.meta.url)
@@ -14,9 +12,14 @@ const BASE_URL = 'https://jeremiecode.fr/projet/labo/NutriMeal'
 // 📅 Date du jour au format YYYY-MM-DD
 const today = new Date().toISOString().split('T')[0]
 
+// Charger les articles du blog sans l'import JSON expérimental
+const postsPath = path.resolve(__dirname, 'src/assets/data/articles.json')
+const posts = JSON.parse(fs.readFileSync(postsPath, 'utf-8'))
+
 const routes = [
   '/',
   '/compteur',
+  '/recettes-frigo',
   '/fonctionnalites',
   '/blog',
   '/politique-de-confidentialite'

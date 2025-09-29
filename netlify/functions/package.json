@@ -3,13 +3,15 @@
   "version": "1.0.0",
   "main": "create-checkout-session.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "netlify dev"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "description": "",
   "dependencies": {
+    "openai": "^4.56.0",
     "stripe": "^18.2.0"
   }
 }

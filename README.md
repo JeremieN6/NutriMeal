@@ -6,13 +6,22 @@
 
 ## 📌 Fonctionnalités
 
+
+### 🔢 Calcul
 - Calcul automatique du nombre de dosettes à partir du volume du biberon et du ratio ml/dosette.
 - Boutons de volumes courants pour un accès rapide (90 ml, 120 ml, 150 ml, etc.).
+
+## 🍳 Recettes depuis le frigo (OpenAI + Netlify Functions)
+
+Cette fonctionnalité génère 1 à 3 recettes adaptées aux ingrédients que vous avez. Elle utilise une Function Netlify qui appelle l'API OpenAI.
+
+
+### Autres fonctionnalités
+
 - Messages d’alerte pour volumes ou ratios invalides.
 - Interface responsive et compatible dark mode.
 - Instructions claires sur le fonctionnement et la sécurité.
 - Facilement intégrable sur un site existant grâce à Vue.js et TailwindCSS.
-
 ---
 
 ## ⚡ Technologies utilisées
