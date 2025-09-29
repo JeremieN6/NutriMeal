@@ -62,5 +62,137 @@
         "content": "Utiliser un calculateur fiable et noter chaque aliment consommé reste la méthode la plus efficace."
       }
     ]
+  },
+  {
+    "slug": "comprendre-calories-aliments",
+    "title": "Comprendre les calories des aliments : pourquoi c’est essentiel ?",
+    "intro": "Les calories ne sont pas qu’un simple chiffre sur un paquet. Elles représentent l’énergie que votre corps utilise chaque jour. Savoir combien de calories contient un aliment vous aide à mieux équilibrer vos repas et atteindre vos objectifs santé.",
+    "date": "29 Septembre 2025",
+    "sections": [
+      {
+        "subtitle": "Pourquoi compter les calories ?",
+        "content": "Comprendre vos apports énergétiques vous permet d’adapter votre alimentation à vos objectifs : perte de poids, prise de masse ou simple équilibre quotidien."
+      },
+      {
+        "subtitle": "Les erreurs fréquentes",
+        "content": "Sous-estimer les portions, ignorer les boissons sucrées ou ne pas tenir compte de l’huile de cuisson sont des erreurs courantes."
+      },
+      {
+        "subtitle": "Comment notre outil vous aide",
+        "content": "Avec notre application, vous entrez simplement le nom d’un aliment et obtenez son apport calorique exact ainsi que d’autres informations nutritionnelles."
+      },
+      {
+        "subtitle": "L’importance de la précision",
+        "content": "Un calcul approximatif peut fausser vos objectifs. Notre outil s’appuie sur des bases de données fiables pour donner des valeurs exactes."
+      }
+    ]
+  },
+  {
+    "slug": "eviter-erreurs-calcul-calories",
+    "title": "Prévention : éviter les erreurs de calcul des calories dès le départ",
+    "intro": "Beaucoup de personnes pensent compter correctement leurs calories, mais certaines erreurs faussent rapidement les résultats. Voici comment les éviter.",
+    "date": "29 Septembre 2025",
+    "sections": [
+      {
+        "subtitle": "Les pièges les plus fréquents",
+        "content": "Ne pas peser ses aliments, se fier uniquement à l’œil ou oublier les sauces et assaisonnements sont des erreurs classiques."
+      },
+      {
+        "subtitle": "Le rôle de la constance",
+        "content": "Être régulier dans le suivi permet d’obtenir des résultats fiables et d’ajuster son alimentation en conséquence."
+      },
+      {
+        "subtitle": "Notre calculateur comme allié",
+        "content": "Notre outil simplifie le processus : il vous suffit de saisir l’aliment pour obtenir des données précises sans risque d’oubli."
+      }
+    ]
+  },
+  {
+    "slug": "dangers-sous-estimation-calories",
+    "title": "Sous-estimer les calories : un risque courant mais évitable",
+    "intro": "Beaucoup de personnes pensent manger moins qu’en réalité. Pourtant, une sous-estimation répétée peut bloquer vos progrès ou même entraîner une prise de poids.",
+    "date": "29 Septembre 2025",
+    "sections": [
+      {
+        "subtitle": "Pourquoi on sous-estime ?",
+        "content": "Les snacks, les boissons sucrées ou les petits grignotages sont souvent oubliés dans le calcul."
+      },
+      {
+        "subtitle": "Les conséquences à long terme",
+        "content": "Un suivi imprécis fausse vos calculs et peut mener à la frustration ou à un échec de vos objectifs."
+      },
+      {
+        "subtitle": "Comment éviter ce piège",
+        "content": "Utiliser un calculateur fiable et noter chaque aliment consommé reste la méthode la plus efficace."
+      }
+    ]
+  },
+  {
+    "slug": "impact-portions-calories",
+    "title": "Portions et calories : pourquoi la taille compte vraiment",
+    "intro": "Un aliment peut sembler peu calorique, mais la portion consommée change tout. Comprendre la différence entre portion et ration est essentiel pour mieux gérer ses apports.",
+    "date": "29 Septembre 2025",
+    "sections": [
+      {
+        "subtitle": "La confusion entre portion et ration",
+        "content": "Une portion indiquée sur un emballage est souvent plus petite que ce que nous consommons réellement. Résultat : les calories s’additionnent sans qu’on s’en rende compte."
+      },
+      {
+        "subtitle": "Exemple concret",
+        "content": "Un paquet de chips indique 150 calories pour 30 g, mais si vous mangez le paquet entier de 90 g, vous consommez en réalité 450 calories."
+      },
+      {
+        "subtitle": "Comment notre outil aide",
+        "content": "En entrant le poids réel de l’aliment consommé, l’application ajuste automatiquement les calories et les nutriments associés."
+      }
+    ]
+  },
+  {
+    "slug": "role-macronutriments-calories",
+    "title": "Les macronutriments : comprendre protéines, glucides et lipides",
+    "intro": "Les calories ne disent pas tout. Derrière ce chiffre, on retrouve les macronutriments, chacun ayant un rôle précis dans l’organisme. Bien les comprendre, c’est mieux gérer son alimentation.",
+    "date": "29 Septembre 2025",
+    "sections": [
+      {
+        "subtitle": "Les protéines",
+        "content": "Elles construisent et réparent les tissus. Chaque gramme de protéine apporte 4 calories."
+      },
+      {
+        "subtitle": "Les glucides",
+        "content": "Ils fournissent l’énergie principale au corps. Un gramme de glucide apporte également 4 calories."
+      },
+      {
+        "subtitle": "Les lipides",
+        "content": "Souvent mal vus, ils sont pourtant essentiels au fonctionnement hormonal et cérébral. 1 g de lipides apporte 9 calories."
+      },
+      {
+        "subtitle": "Comment équilibrer",
+        "content": "Un bon suivi ne consiste pas seulement à compter les calories, mais à répartir correctement ses macronutriments."
+      }
+    ]
+  },
+  {
+    "slug": "calories-et-objectif",
+    "title": "Adapter ses calories à ses objectifs : perte de poids, maintien ou prise de masse",
+    "intro": "Chaque objectif nécessite un apport calorique spécifique. Apprendre à ajuster ses calories est la clé d’une alimentation réussie.",
+    "date": "29 Septembre 2025",
+    "sections": [
+      {
+        "subtitle": "Perte de poids",
+        "content": "Il faut créer un déficit calorique, c’est-à-dire consommer moins de calories que ce que l’on dépense."
+      },
+      {
+        "subtitle": "Maintien du poids",
+        "content": "Il s’agit de trouver son équilibre calorique en ajustant selon l’activité et le métabolisme."
+      },
+      {
+        "subtitle": "Prise de masse",
+        "content": "On cherche ici un surplus calorique contrôlé, accompagné d’un apport suffisant en protéines."
+      },
+      {
+        "subtitle": "Le rôle de notre outil",
+        "content": "Grâce à notre calculateur, il est plus facile de suivre ses apports et de les ajuster en fonction de son objectif."
+      }
+    ]
   }
 ]
