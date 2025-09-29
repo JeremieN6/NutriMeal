@@ -2,6 +2,18 @@
 // POST /.netlify/functions/generate-recipes
 // Body: { ingredients: string[], count?: number, diet?: string, cuisine?: string }
 
+// Load env for local dev (try .env.local then .env)
+try {
+  const fs = require('fs')
+  const path = require('path')
+  const dotenv = require('dotenv')
+  const root = path.resolve(__dirname, '..', '..')
+  const envLocal = path.join(root, '.env.local')
+  const envDefault = path.join(root, '.env')
+  if (fs.existsSync(envLocal)) dotenv.config({ path: envLocal })
+  else if (fs.existsSync(envDefault)) dotenv.config({ path: envDefault })
+} catch (_) { /* ignore */ }
+
 const OpenAI = require('openai')
 
 const openai = new OpenAI({ apiKey: process.env.OPENAI_API_KEY })

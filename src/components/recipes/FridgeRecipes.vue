@@ -136,7 +136,13 @@ async function generate () {
   suggestionsIfAdd.value = []
   loading.value = true
   try {
-    const res = await fetch('/.netlify/functions/generate-recipes', {
+    const isDev = import.meta.env.DEV
+    const isViteDefaultPort = typeof window !== 'undefined' && window.location.port === '5173'
+    const fnUrl = isDev && isViteDefaultPort
+      ? 'http://localhost:8888/.netlify/functions/generate-recipes'
+      : '/.netlify/functions/generate-recipes'
+
+    const res = await fetch(fnUrl, {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({ ingredients: ingredients.value, cuisine: cuisine.value, diet: diet.value, count: 3 })
