@@ -1,0 +1,15 @@
+[build]
+  functions = "netlify/functions"
+  publish = "dist"
+
+[functions]
+  directory = "netlify/functions"
+  node_bundler = "esbuild"  # ou "zisi" selon ton besoin, esbuild est + rapide
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
+
+[build.environment]
+  NODE_VERSION = "18"
